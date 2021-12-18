@@ -8,7 +8,7 @@ from authorization import token
 router = APIRouter()
 
 
-@router.post("/login")
+@router.post("/users/login/")
 async def authenticate_user(request: schemas.LoginBase, db:Session = Depends(database.get_db)):
 
     db_user = db.query(models.User).filter(models.User.email == request.username ).first()
