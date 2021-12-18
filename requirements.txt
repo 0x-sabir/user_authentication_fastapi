@@ -1,0 +1,11 @@
+fastapi>=0.68.0,<0.69.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+sqlalchemy>=1.4.27,<2.0.0
+pymysql>=1.0.2,<2.0.0
+bcrypt>=3.2.0,<4.0.0
+passlib>=1.1.4,<2.0.0
+python-jose>=3.3.0,<4.0.0
+pytest ==6.2.5
+pytest-dotenv
+datetime
