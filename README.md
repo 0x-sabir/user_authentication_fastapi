@@ -7,16 +7,22 @@ Authentication API
 ### Setup environment
 You should create a virtual environment and activate it:
 
-[copy text="Click Me" content="virtualenv venv"]
-[copy text="Click Me" content="source venv/bin/activate"]
-
+```bash
+virtualenv venv
+```
+```bash
+source venv/bin/activate
+```
 And then install the development dependencies:
 
-[copy text="Click Me" content="pip3 install -r requirements.dev.txt"]
+```bash
+pip3 install -r requirements.dev.txt
+```
 
 ### Run:
-
-[copy text="Click Me" content="uvicorn main:app --reload"]
+```bash
+uvicorn main:app --reload
+```
 
 
 ## Name
