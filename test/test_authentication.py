@@ -8,7 +8,7 @@ client = TestClient(app)
 
 def test_authentication():
     response = client.post(
-        "/login",
+        "/users/login/",
         json = {
     "username":"deadpool76@gmail.com",
     "password":"HelloKalu"
