@@ -9,7 +9,7 @@ router = APIRouter()
 
 
 
-@router.post("/users/faculty_signup/",response_model =schemas.User)
+@router.post("/users/signup/",response_model =schemas.User)
 async def create_user(request:schemas.UserCreate,db:Session = Depends(database.get_db)):
     
     db_user = crud.get_user_by_email(db,email = request.email)
