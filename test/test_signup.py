@@ -7,7 +7,7 @@ client = TestClient(app)
 
 def test_signup():
     response = client.post(
-        "/users/faculty_signup/",
+        "/users/signup/",
         json = {"email":"dead6977@gmail.com","password":"fuckyou","confirm_password":"fuckyou"},
     )
 
