@@ -52,7 +52,7 @@ client = TestClient(app)
 
 def test_create_user():
     response = client.post(
-        "/users/faculty_signup/",
+        "/users/signup/",
         json = {"email":"deadpool76@gmail.com","password":"HelloKalu","confirm_password":"HelloKalu"},
     )
 
